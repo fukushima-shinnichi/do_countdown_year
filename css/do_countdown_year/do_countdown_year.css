@@ -1,0 +1,510 @@
+/********   body   **********/
+
+body {
+  background-image: url(img/bodyImage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainImageLayer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(255,255,255,0.5);
+  margin: 0px;
+  padding: 0px;
+}
+
+/*******   count down page   ***********/
+.countdownPage {
+  width: 1200px;
+  height: 700px;
+  margin: 50px auto;
+  border-radius: 50px;
+  border: solid 5px #fff;
+}
+
+    /*****   2017_1   **********/
+#c2017_1 {
+  background-image: url(img/chicken_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#c2017_1 .comment {
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.8);
+  border: solid 5px rgba(255,255,0,0.8);
+  margin: 150px 0px 0px 850px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#c2017_1 .comment::before {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: -80px;
+  border: solid 30px transparent;
+  border-right: solid 50px rgba(255,255,0,0.9);
+}
+
+#c2017_1 .comment::after {
+  content: "";
+  position: absolute;
+  top: 205px;
+  left: -65px;
+  border: solid 25px transparent;
+  border-right: solid 40px rgba(255,255,255,0.9);
+}
+
+.comment p {
+  font-family: 'Risque', cursive;
+  font-size: 50px;
+  margin: 20px 10px;
+}
+
+    /*****   2017_2   **********/
+#c2017_2 {
+  background-image: url(img/chicken_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#c2017_2 .comment {
+  width: 350px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.8);
+  border: solid 5px rgba(255,255,0,0.8);
+  margin: 135px 0px 0px 50px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#c2017_2 .comment::before {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 370px;
+  border: solid 30px transparent;
+  border-left: solid 150px rgba(255,255,0,0.9);
+}
+
+#c2017_2 .comment::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 340px;
+  border: solid 30px transparent;
+  border-left: solid 150px rgba(255,255,255,0.9);
+}
+
+    /*****   2017_3   **********/
+#c2017_3 {
+  background-image: url(img/chicken_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#c2017_3 .comment {
+  width: 400px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.7);
+  /*border: solid 5px rgba(169,169,169,0.8);*/
+  margin: 100px 0px 0px 50px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#c2017_3 .comment::after {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 420px;
+  border: solid 30px transparent;
+  border-left: solid 50px rgba(255,255,255,0.7);
+}
+
+    /*****   2018_1   **********/
+#d2018_1 {
+  background-image: url(img/dog_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#d2018_1 img {
+  border-radius: 50px;
+  width: 300px;
+  border: solid 5px rgba(178,34,34,0.8);
+  margin: 50px 0px 0px 790px;
+}
+
+#d2018_1 .comment {
+  width: 550px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.9);
+  border: solid 5px rgba(178,34,34,0.9);
+  margin: 10px 0px 0px 550px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#d2018_1 .comment::before {
+  content: "";
+  position: absolute;
+  top: -240px;
+  left: 200px;
+  border: solid 20px transparent;
+  border-bottom: solid 270px rgba(178,34,34,0.9);
+  transform: rotate(45deg);
+}
+
+#d2018_1 .comment::after {
+  content: "";
+  position: absolute;
+  top: -210px;
+  left: 192px;
+  border: solid 15px transparent;
+  border-bottom: solid 240px rgba(255,255,255,0.9);
+  transform: rotate(45deg);
+}
+
+#d2018_1 .comment p {
+  margin: 20px auto;
+  text-align: center;
+}
+
+    /*****   2018_2   **********/
+#d2018_2 {
+  background-image: url(img/dog_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#d2018_2 .comment {
+  width: 800px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.9);
+  border: solid 5px rgba(255,69,0,0.9);
+  margin: 30px auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+#d2018_2 .comment::before {
+  content: "";
+  position: absolute;
+  top: 250px;
+  left: 550px;
+  border: solid 30px transparent;
+  border-top: solid 200px rgba(255,69,0,0.9);
+  transform: rotate(60deg);
+}
+
+#d2018_2 .comment::after {
+  content: "";
+  position: absolute;
+  top: 255px;
+  left: 570px;
+  border: solid 23px transparent;
+  border-top: solid 180px rgba(255,255,255,0.9);
+  transform: rotate(60deg);
+}
+
+    /*****   2018_3   **********/
+#d2018_3 {
+  background-image: url(img/dog_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: none;
+}
+
+#d2018_3 .comment {
+  width: 500px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.8);
+  border: solid 5px rgba(60,179,113,0.8);
+  margin: 250px 0px 0px 10px;
+  border-radius: 30px;
+  position: relative;
+}
+
+#d2018_3 .comment::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 520px;
+  border: solid 70px transparent;
+  border-left: solid 50px rgba(60,179,113,0.8);
+}
+
+#d2018_3 .comment::after {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 520px;
+  border: solid 60px transparent;
+  border-left: solid 40px rgba(255,255,255,0.8);
+}
+
+/***********   sounds control button   **************/
+div#sounds_control_button {
+  width: 400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+#sounds_control_button button {
+  width: 120px;
+  margin: 0px 0px 20px 10px;
+  padding: 0px;
+  border: none;
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(211,211,211,0.8);
+}
+
+i.fa {
+  font-size: 50px;
+  margin: 10px 0px;
+}
+
+#sounds_control_button button:hover {
+  background-color: rgba(255,182,193,0.8);
+  color: #ff0;
+}
+
+
+
+
+
+
+/*******   samart phone responsive   ***************/
+@media screen and (max-width:767px) {
+  
+  /*******   count down page   ***********/
+  .countdownPage {
+    width: 375px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: solid 5px #fff;
+  }
+  
+        /*****   2017_1   **********/
+  #c2017_1 .comment {
+    margin: 220px 0px 0px 50px;
+  }
+
+  #c2017_1 .comment::before {
+    position: absolute;
+    top: -130px;
+    left: 200px;
+    border: solid 30px transparent;
+    border-bottom: solid 120px rgba(255,255,0,0.9);
+    transform: rotate(-30deg);
+  }
+
+  #c2017_1 .comment::after {
+    position: absolute;
+    top: -110px;
+    left: 210px;
+    border: solid 30px transparent;
+    border-bottom: solid 120px rgba(255,255,255,0.9);
+    transform: rotate(-30deg);
+  }
+  
+      /*****   2017_2   **********/
+
+#c2017_2 .comment {
+  margin: 230px 0px 0px 0px;
+}
+
+#c2017_2 .comment::before {
+  content: "";
+  position: absolute;
+  top: -160px;
+  left: 120px;
+  border: solid 30px transparent;
+  border-bottom: solid 180px rgba(255,255,0,0.9);
+  transform: rotate(45deg)
+}
+
+#c2017_2 .comment::after {
+  content: "";
+  position: absolute;
+  top: -130px;
+  left: 108px;
+  border: solid 25px transparent;
+  border-bottom: solid 160px rgba(255,255,255,0.9);
+  transform: rotate(45deg)
+}
+  
+      /*****   2017_3   **********/
+
+#c2017_3 .comment {
+  width: 350px;
+  margin: 230px 0px 0px 0px;
+  border: solid 5px rgba(169,169,169,0.8);
+}
+
+#c2017_3 .comment::before {
+  content: "";
+  position: absolute;
+  top: -110px;
+  left: 220px;
+  border: solid 30px transparent;
+  border-bottom: solid 80px rgba(169,169,169,0.8);
+}
+
+#c2017_3 .comment::after {
+  content: "";
+  position: absolute;
+  top: -95px;
+  left: 220px;
+  border: solid 30px transparent;
+  border-bottom: solid 80px rgba(255,255,255,0.9);
+}
+  
+        /*****   2018_1   **********/
+
+#d2018_1 img {
+    border-radius: 15px;
+    width: 100px;
+    margin: 10px 0px 0px 245px;
+  }
+
+  #d2018_1 .comment {
+    width: 300px;
+    padding: 10px;
+    margin: 80px 0px 0px 50px;
+    border-radius: 30px;
+    position: relative;
+  }
+
+  #d2018_1 .comment::before {
+    position: absolute;
+    top: -180px;
+    left: 130px;
+    border: solid 20px transparent;
+    border-bottom: solid 200px rgba(178,34,34,0.9);
+    transform: rotate(45deg);
+  }
+
+  #d2018_1 .comment::after {
+    position: absolute;
+    top: -150px;
+    left: 122px;
+    border: solid 15px transparent;
+    border-bottom: solid 170px rgba(255,255,255,0.9);
+    transform: rotate(45deg);
+  }
+  
+      /*****   2018_1   **********/
+
+#d2018_2 .comment {
+  width: 350px;
+  margin: 230px auto;
+}
+
+#d2018_2 .comment::before {
+  content: "";
+  position: absolute;
+  top: -110px;
+  left: 200px;
+  border: solid 30px transparent;
+  border-bottom: solid 120px rgba(255,69,0,0.9);
+  transform: rotate(-45deg);
+}
+
+#d2018_2 .comment::after {
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: 218px;
+  border: solid 25px transparent;
+  border-bottom: solid 110px rgba(255,255,255,0.9);
+  transform: rotate(-45deg);
+}
+  
+      /*****   2018_3   **********/
+
+#d2018_3 .comment {
+  width: 365px;
+}
+
+#d2018_3 .comment::before {
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: 100px;
+  border: solid 30px transparent;
+  border-bottom: solid 150px rgba(60,179,113,0.8);
+  transform: rotate(35deg);
+}
+
+#d2018_3 .comment::after {
+  content: "";
+  position: absolute;
+  top: -125px;
+  left: 95px;
+  border: solid 23px transparent;
+  border-bottom: solid 140px rgba(255,255,255,0.8);
+  transform: rotate(35deg);
+}
+  
+  /*********   sounds_control_button   ***********/
+  #sounds_control_button button {
+  width: 120px;
+  margin: 600px 0px 20px 10px;
+  padding: 0px;
+  border: none;
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(211,211,211,0.8);
+}
+  
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+/******   google fonts   ***********/
+/*
+font-family: 'Risque', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Patua One', cursive;
+*/
